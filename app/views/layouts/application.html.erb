@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Safarisedoso</title>
+    <title>Safari Sedoso</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="stylesheet" href="awesome1-master/css/animate.min.css">
+		<link rel="stylesheet" href="awesome1-master/css/bootstrap.min.css">
+		<link rel="stylesheet" href="awesome1-master/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="awesome1-master/css/templatemo-style.css">
+		<script src="awesome1-master/js/jquery.js"></script>
+		<script src="awesome1-master/js/bootstrap.min.js"></script>
+    <script src="awesome1-master/js/jquery.singlePageNav.min.js"></script>
+		<script src="awesome1-master/js/typed.js"></script>
+		<script src="awesome1-master/js/wow.min.js"></script>
+		<script src="awesome1-master/js/custom.js"></script>
   </head>
 
-  <body>
+  <body id="top">
+    <%= render 'layouts/header' %>
+    <%= render 'layouts/navbar' %>
     <%= yield %>
   </body>
 </html>
