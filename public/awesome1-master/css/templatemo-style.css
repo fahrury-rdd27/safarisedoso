@@ -187,12 +187,13 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: #fff; 
 }
 .templatemo-nav {
 	border-radius: 0;	
 	width: 100%;
 	z-index: 1000;
+	background-color: #4ebcf5;
 }
 .sticky {	
 	position: fixed;
