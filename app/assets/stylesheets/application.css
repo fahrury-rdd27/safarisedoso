@@ -18,3 +18,9 @@
     height: 100%;
     margin-top: -5px;
  }
+
+ #tim1, #tim2, #tim3, #tim4 {
+    height: 262.5px;
+    width: 262.5px;
+    filter: grayscale(100%);
+ }
